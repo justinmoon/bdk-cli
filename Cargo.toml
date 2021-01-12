@@ -12,8 +12,8 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-bdk = "^0.2"
-bdk-macros = "^0.2"
+bdk = { path = "../bdk" }
+bdk-macros =  { path = "../bdk/macros" }
 structopt = "^0.3"
 serde_json = { version = "^1.0" }
 log = "^0.4"
